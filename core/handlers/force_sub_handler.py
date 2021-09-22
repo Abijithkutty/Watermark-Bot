@@ -42,7 +42,7 @@ async def handle_force_subscribe(bot, cmd):
     except Exception:
         await bot.send_message(
             chat_id=cmd.from_user.id,
-            text="Something went Wrong. Contact my [Support Group](https://t.me/linux_repo).",
+            text="Something went Wrong. Contact my [Support Group](https://t.me/REX_Bots_Support).",
             parse_mode="markdown",
             disable_web_page_preview=True
         )
